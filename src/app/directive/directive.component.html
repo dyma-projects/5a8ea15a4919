@@ -1,0 +1,28 @@
+<h1>Composant directive</h1>
+<div>
+	<h4>Les 3 types de liaisons:</h4>
+	<ul>
+		<li>première liaison: {{titre}}</li>
+		<li>deuxième liaison (propriétés):<input [type]="date"></li>
+		<li>troisième liaison (évènements):<span 
+			[style.backgroundColor]="color"
+			 (click)="changeColor('green')"
+			 (mouseenter)="changeColor('blue')"
+			 (mouseleave)="changeColor('red')"
+			 
+			 			 > clicquez-moi</span></li>
+	</ul>
+</div>
+
+<div>
+	<h4> Les paragraphes p1 et p2</h4>
+	<button (click) = "status =! status"> Votre choix</button>
+	<p *ngIf= "status== true">P1</p>
+	<p *ngIf ="status == false">P2</p>
+</div>
+
+<div *ngFor = "let item of texts">
+	<ul>
+		<li>{{item}}</li>
+	</ul>
+</div>
