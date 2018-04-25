@@ -16,15 +16,15 @@ Puis lancer le serveur de développement avec :
 
 ## Objectifs
 
-[ ] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
+[*] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
 
-[ ] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
+[*] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
 
-[ ] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
+[ *] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
 
-[ ] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
+[*] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
       
-[ ] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
+[*] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
 
 [ ] Ajouter dans le component 'directive' une propriété 'status', de type boolean, initialisé à TRUE.
 
